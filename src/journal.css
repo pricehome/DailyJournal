@@ -2,3 +2,13 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+
+textarea {
+  width: 98%;
+  height: 120px;
+}
+
+
+#concepts {
+  width: 98%;
+}
