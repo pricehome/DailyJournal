@@ -1,29 +1,74 @@
- {
-"entries": [
- 
-  {
-    "date": "06-10-2019",
-    "conceptsCovered": "Manipulating the DOM",
-    "journalEntry": "lorem ipsum",
-    "mood": "good"
-  },
-  {
-    "date": "06-11-2019",
-    "conceptsCovered": "JavaScript Objects",
-    "journalEntry": "Lorem ipsum",
-    "mood": "good"
-  },
-  {
-    "date": "06-12-2019",
-    "conceptsCovered": "Functions and Logic",
-    "journalEntry": "lorem ipsum",
-    "mood": "good"
-  },
-  {
-    "date": "06-13-2019",
-    "conceptsCovered": "Building DOM Components",
-    "journalEntry": "lorem ipsum",
-    "mood": "good"
-  }
-]
+{
+  "entries": [
+    {
+      "date": "06-10-2019",
+      "conceptsCovered": "Manipulating the DOM",
+      "journalEntry": "lorem ipsum",
+      "mood": "good",
+      "id": 1
+    },
+    {
+      "date": "06-11-2019",
+      "conceptsCovered": "JavaScript Objects",
+      "journalEntry": "Lorem ipsum",
+      "mood": "good",
+      "id": 2
+    },
+    {
+      "date": "06-12-2019",
+      "conceptsCovered": "Functions and Logic",
+      "journalEntry": "lorem ipsum",
+      "mood": "good",
+      "id": 3
+    },
+    {
+      "date": "06-13-2019",
+      "conceptsCovered": "Building DOM Components",
+      "journalEntry": "lorem ipsum",
+      "mood": "good",
+      "id": 4
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "d",
+      "entry": "d",
+      "mood": "Happy",
+      "id": 5
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "d",
+      "entry": "d",
+      "mood": "Happy",
+      "id": 6
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "d",
+      "entry": "d",
+      "mood": "Happy",
+      "id": 7
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "d",
+      "entry": "d",
+      "mood": "Happy",
+      "id": 8
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "d",
+      "entry": "d",
+      "mood": "Tired",
+      "id": 9
+    },
+    {
+      "date": "2019-06-20",
+      "concept": "lll",
+      "entry": "2222",
+      "mood": "Optimistic",
+      "id": 10
+    }
+  ]
 }

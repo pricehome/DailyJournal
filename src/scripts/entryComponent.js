@@ -1,10 +1,12 @@
-// creates the journal entry HTML component
-const renderJournalEntries = (entries) => {
-  let divProcess = "";
-  for(let i = 0; i < entries.length; i++) {
-    divProcess += makeJournalEntryComponent(entries[i])
-  }
 
-  const entryHoldingLocation = document.querySelector(".entryLog")
-  entryHoldingLocation.innerHTML = divProcess 
+// modifies the DOM
+function makeJournalEntryComponent(journalEntry) {
+  return `
+  <div>
+  <h1>${journalEntry.date}</h1>
+  <h2>${journalEntry.conceptsCovered}</h2>
+  <h3>${journalEntry.journalEntry}</h3>
+  <p>${journalEntry.mood}</p>
+  </div>
+  `
 }

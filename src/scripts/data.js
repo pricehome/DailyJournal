@@ -1,9 +1,4 @@
 // deals with getting the data
-// fetch("http://localhost:3000/entries") 
-//     .then(data => data.json())  
-//     .then(entries => {console.log(entries)
-//     })
-
 // Copied from chapter
 const API = {
   getJournalEntries () {
@@ -11,3 +6,8 @@ const API = {
           .then(entries => entries.json())
   }
 }
+
+
+
+
+
