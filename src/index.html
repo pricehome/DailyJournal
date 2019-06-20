@@ -13,34 +13,38 @@
     <h1>Daily Journal</h1>
     <form action="">
         <fieldset>
-            <label for="JournalDate">Date Of Entry</label>
-            <input type="date" name="JournalDate " id="JournalDate">
+            <label for="journalDate">Date Of Entry</label>
+            <input type="date" name="journalDate " id="journalDate">
         </fieldset>
 
         <fieldset>
-            <label for="Concepts Covered">Concepts Covered</label>
-            <input id=concepts type="text" name="ConceptsCovered " id="">
+            <label for="conceptsCovered">Concepts Covered</label>
+            <input type="text" name="conceptsCovered " id="conceptsCovered">
         </fieldset>
 
         <fieldset>
-            <label for="JournalEntry">Journal Entry</label>
-            <textarea name="JournalEntry " id=""></textarea>
+            <label for="journalEntry">Journal Entry</label>
+            <textarea name="journalEntry " id="journalEntry"></textarea>
         </fieldset>
 
         <fieldset>
-            <label for="MoodForTheDay">Mood</label>
-            <select name="Mood" id="Mood ">
+            <label for="mood">Mood</label>
+            <select name="mood" id="mood">
                 <option value="Happy">Happy</option>
                 <option value="Tired">Tired</option>
                 <option value="Optimistic">Optimistic</option>
                 <option value="Confused">Confused</option>
             </select>
         </fieldset>
-        <button>Click To Enter</button>
+        <button id="add_btn" type="button">Record Journal Entry</button>
     </form>
     <article class="entryLog">
 
     </article>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/entriesDOM.js"></script>
+    <script src="scripts/entryComponent.js"></script>
     <script src="scripts/journal.js"></script>
 </body>
 
