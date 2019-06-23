@@ -15,8 +15,8 @@ function eventListener() {
 function journalFactory(date, concepts, entry, mood) {
     return {
         date: date,
-        concept: concepts,
-        entry: entry,
+        conceptsCovered: concepts,
+        journalEntry: entry,
         mood: mood
     }
 }
